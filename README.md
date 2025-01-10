@@ -24,3 +24,7 @@ Finish Time: 2024.12.06
 Contents: Lecture and have a try in problem set (not make a project but know basic operations) 
 
 Scratch [website](https://scratch.mit.edu/)
+
+## Week 1 C
+
+Finish Time: 2025.1.10
