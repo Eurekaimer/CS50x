@@ -3,7 +3,7 @@ Self-learning notes about Harvard CS50x.
 
 # Declaration
 
-There are some notes written in markdown in this repo, and you can download and read in Obsidian to get the best experience. 
+There are some notes written in markdown in this repo, and you can download and read in *Obsidian* to get the best experience. 
 
 Here is from the syllabus of CS50x
 
