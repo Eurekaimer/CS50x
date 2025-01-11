@@ -1,4 +1,3 @@
-#CS50x #Scratch
 # Syllabus
 
 + C

@@ -3,7 +3,7 @@ Self-learning notes about Harvard CS50x.
 
 # Declaration
 
-There are some notes written in markdown in this repo, and you can download and read in Obsidian to get the best experience. 
+There are some notes written in markdown in this repo, and you can download and read in *Obsidian* to get the best experience. 
 
 My submit codes are all in the Notes. 
 
@@ -26,8 +26,6 @@ Contents: Lecture and have a try in problem set (not make a project but know bas
 
 Scratch [website](https://scratch.mit.edu/)
 
-
-
-## Week 0 C
+## Week 1 C
 
 Finish Time: 2025.1.10
