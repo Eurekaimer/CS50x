@@ -29,3 +29,8 @@ Scratch [website](https://scratch.mit.edu/)
 ## Week 1 C
 
 Finish Time: 2025.1.10
+Problem Set 1
+- [x] Hello
+- [x] mario-more
+- [x] cash
+- [x] credit 
