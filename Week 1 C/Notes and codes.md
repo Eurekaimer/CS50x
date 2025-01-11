@@ -493,10 +493,88 @@ int main(void)
 
 int main(void)
 {
-	
+    long checknum;
+    // get a number
+    checknum = get_long("Number: ");
+    // 最终求和变量
+    int checksum = 0;
+    // 指示变量
+    int digit = 1;
+    
+    // checksum part
+    int reminder;
+    int save1 = 0;
+    int save2 = 0;
+    while (checknum > 0)
+    {
+        save2 = save1;
+        save1 = 0;
+        reminder = 0;
+        if (digit % 2 == 0)
+        {
+            save1 = checknum % 10;
+            reminder = checknum % 10 * 2;
+            checknum /= 10;
+            if (reminder >= 10)
+            {
+                reminder = reminder % 10 + 1;
+                checksum += reminder;
+            }
+            else
+            {
+                checksum += reminder;
+            }
+        }
+        else
+        {
+            save1 = checknum % 10;
+            checksum += checknum % 10;
+            checknum /= 10;
+        }
+        digit += 1;
+    }
+    digit -= 1;
+    
+    // claim
+    if (checksum % 10 == 0)
+    {
+        if (save1 == 3 && digit == 15)
+        {
+            if (save2 ==4 || save2 == 7)
+            {
+                 printf("AMEX\n");
+            }
+            else
+            {
+                printf("INVALID\n");
+            }
+        }
+        else if (save1 == 5 && digit == 16)
+        {
+            if (save2 >=1 && save2 <= 5)
+            {
+                 printf("MASTERCARD\n");
+            }
+            else
+            {
+                printf("INVALID\n");
+            }
+        }
+        else if (save1 == 4 && (digit ==13 || digit == 16))
+        {
+            printf("VISA\n");
+        }
+        else
+        {
+            printf("INVALID\n");
+        }
+    }
+    else
+    {
+        printf("INVALID\n");
+    }
 }
 ```
-
 
 
 
